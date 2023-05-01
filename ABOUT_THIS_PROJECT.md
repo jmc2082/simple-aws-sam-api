@@ -1,4 +1,4 @@
-# SIMPLE AWS SAM API - EMAIL ADDRESS SUBSCRIPTION API
+# SIMPLE AWS SAM / SAM CLI API - EMAIL ADDRESS SUBSCRIPTION API
 
 ### DETAILS
 * This is an example proof of concept project that I am working on in order to show how it is possible to 
@@ -6,7 +6,7 @@
 
 ### TECH STACK
 * AWS SAM / SAM CLI
-** SAM utilizes: AWS - cloudformation, api gateway, lambda, dynamodb
+** SAM utilizes: AWS - cloudformation, api gateway, lambda (javascript, node16x), dynamodb
 
 ### PROBLEM TO SOLVE
 * I have a simple SAM project with one function named "subscribe".  This function simply collects and stores an email address 
