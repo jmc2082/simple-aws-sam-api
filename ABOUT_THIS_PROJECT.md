@@ -11,6 +11,8 @@
 ### PROBLEM TO SOLVE
 * I have a simple SAM project with one function named "subscribe".  This function simply collects and stores an email address 
 * in dynamodb. I am able to use this api with Postan (api testing tool), but I am having trouble configuring CORS on the project.
+* I'll start off by saying that the api works fine when testing from a tool like "Postman" but does not work when testing from a 
+* web application from the browser.
 * So far I've tried adjusting the "template.yaml" file:
 
 Resources:
